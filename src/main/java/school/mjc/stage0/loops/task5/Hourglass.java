@@ -29,7 +29,7 @@ public class Hourglass {
     }
     public void printHourglassOfGivenSize(int height) {
         if (height == 0){
-            System.out.println("");
+            System.out.print("");
         }else {
             int space = 1;
             hours(height, space);
