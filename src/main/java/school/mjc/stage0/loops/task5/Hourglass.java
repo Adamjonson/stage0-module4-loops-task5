@@ -6,8 +6,8 @@ public class Hourglass {
         // height = 3;
         if (height == 1){
             System.out.println("8");
-            System.out.print(" ".repeat(space-1));
-            System.out.println("8");
+            //System.out.print(" ".repeat(space-1));
+            //System.out.println("8");
             System.out.print(" ".repeat(space-2));
         }else if(height == 2){
             System.out.println("88");
@@ -28,7 +28,11 @@ public class Hourglass {
 
     }
     public void printHourglassOfGivenSize(int height) {
-        int space = 1;
-        hours(height, space);
+        if (height == 0){
+            System.out.println("");
+        }else {
+            int space = 1;
+            hours(height, space);
+        }
     }
 }
