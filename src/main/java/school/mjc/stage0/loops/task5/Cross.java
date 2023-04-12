@@ -26,7 +26,7 @@ public class Cross {
             System.out.println("");
         }
         if (sideLength == 0){
-            System.out.println("");
+            System.out.print("");
         }
 
     }
